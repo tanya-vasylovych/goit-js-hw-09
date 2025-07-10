@@ -30,3 +30,15 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+a {
+text-decoration: none;
+color: inherit;
+font-size: 36px;
+}
+ul {
+  list-style: none;
+}
+a:hover,
+a:focus{
+  color: rgb(36, 36, 36, 0.4);
+}
